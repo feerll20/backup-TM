@@ -55,4 +55,5 @@ private WebDriverWait wait;
 		wait = new WebDriverWait(driver, timeToWait);
 		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
 	}
+	
 }
