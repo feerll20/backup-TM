@@ -5,6 +5,9 @@ import org.testng.annotations.Test;
 import com.autom.practice.site.project.homePage;
 
 import org.testng.annotations.BeforeClass;
+
+import static org.testng.Assert.assertTrue;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 
@@ -21,7 +24,7 @@ public class SearchSomething {
 
 	@Test
 	public void searchingAProduct() {
-		homePage.runASearch("dolcegabanna"); //just a change
+		assertTrue(homePage.runASearch("dolcegabanna")); //just a change to validate this with the Asserts
 	}
 
 	@AfterClass
