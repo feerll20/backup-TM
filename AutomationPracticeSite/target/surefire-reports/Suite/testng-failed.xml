@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
-      <class name="com.autom.practice.site.Tests.Login">
+      <class name="com.autom.practice.site.Tests.SearchSomething">
         <methods>
-          <include name="beforeClass"/>
-          <include name="successLoginTestcase"/>
           <include name="afterClass"/>
+          <include name="searchingAProduct"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- com.autom.practice.site.Tests.Login -->
+      </class> <!-- com.autom.practice.site.Tests.SearchSomething -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -5,6 +5,7 @@
     <classes>
       <class name="com.autom.practice.site.Tests.DataDrivenEx"/>
       <class name="com.autom.practice.site.Tests.Login"/>
+      <class name="com.autom.practice.site.Tests.SearchSomething"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
