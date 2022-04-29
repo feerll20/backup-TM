@@ -21,7 +21,7 @@ public class SearchSomething {
 
 	@Test
 	public void searchingAProduct() {
-		homePage.runASearch("dolcegabanna");
+		homePage.runASearch("dolcegabanna"); //just a change
 	}
 
 	@AfterClass
