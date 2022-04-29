@@ -24,7 +24,7 @@ public class SearchSomething {
 
 	@Test
 	public void searchingAProduct() {
-		assertTrue(homePage.runASearch("dolcegabanna")); //just a change
+		assertTrue(homePage.runASearch("dolcegabanna")); //just a change to validate this with the Asserts
 	}
 
 	@AfterClass
