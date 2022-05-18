@@ -12,10 +12,14 @@ public class Main {
 		
 		
 //		factorial.isFactorial(12);
+//		int arr[][] = new int[1][1];
+//		
+//		
+//		List<String> nameList  = new ArrayList<String>(List.of("Bernard", "Charlie", "Angie", "Andy", "Bertha", "Annie", "Carl", "Dennis", "Caroline", "Bob", "Betty", "Bart", "Albert", "Connie"));
+//		System.out.println("Let's begin...");
+//		ListingNames.listOfNames(nameList);
 		
-		List<String> nameList  = new ArrayList<String>(List.of("Bernard", "Charlie", "Angie", "Andy", "Bertha", "Annie", "Carl", "Dennis", "Caroline", "Bob", "Betty", "Bart", "Albert", "Connie"));
-		System.out.println("Let's begin...");
-		ListingNames.listOfNames(nameList);
+		uniqeCharacters.countCharacter("aabcddeeeff");
         
 	}
 
